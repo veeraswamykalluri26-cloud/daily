@@ -29,3 +29,5 @@ console.log(`Your current company is: ${presentCompany}.`);
 // working on git push to branch and pull request to main branch.
 let isEmployed: boolean = true;
 console.log(`Are you currently employed? ${isEmployed ? "Yes" : "No"}.`);
+let hobbies: string[] = ["Reading", "Traveling", "Cooking"];
+console.log(`Your hobbies are: ${hobbies.join(", ")}.`);    
