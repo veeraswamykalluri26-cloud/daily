@@ -33,3 +33,5 @@ let hobbies: string[] = ["Reading", "Traveling", "Cooking"];
 console.log(`Your hobbies are: ${hobbies.join(", ")}.`);   
 let favoriteNumbers: number[] = [7, 14, 21];
 console.log(`Your favorite numbers are: ${favoriteNumbers.join(", ")}.`);    
+let personInfo: [string, number, boolean] = ['veera', 26, true];
+console.log(`Name: ${personInfo[0]}, Age: ${personInfo[1]}, Employed: ${personInfo[2] ? "Yes" : "No"}.`);   
