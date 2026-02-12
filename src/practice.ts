@@ -37,3 +37,5 @@ let personInfo: [string, number, boolean] = ['veera', 26, true];
 console.log(`Name: ${personInfo[0]}, Age: ${personInfo[1]}, Employed: ${personInfo[2] ? "Yes" : "No"}.`);   
 let currentCompany: CompanyType = companies.Apple;console.log(`Your current company is: ${currentCompany}.`);
 console.log(`Your current company is: ${currentCompany}.`);
+let isEmployeed: boolean = true;
+console.log(`Are you currently employed? ${isEmployeed ? "Yes" : "No"}.`);           
