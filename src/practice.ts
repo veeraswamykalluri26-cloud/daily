@@ -30,4 +30,6 @@ console.log(`Your current company is: ${presentCompany}.`);
 let isEmployed: boolean = true;
 console.log(`Are you currently employed? ${isEmployed ? "Yes" : "No"}.`);
 let hobbies: string[] = ["Reading", "Traveling", "Cooking"];
-console.log(`Your hobbies are: ${hobbies.join(", ")}.`);    
+console.log(`Your hobbies are: ${hobbies.join(", ")}.`);   
+let favoriteNumbers: number[] = [7, 14, 21];
+console.log(`Your favorite numbers are: ${favoriteNumbers.join(", ")}.`);    
