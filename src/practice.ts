@@ -26,3 +26,6 @@ type CompanyType = typeof companies[keyof typeof companies];
 console.log(`You have worked at: ${companies.Google}, ${companies.Microsoft}, ${companies.Apple}.`);
 let presentCompany: CompanyType = companies.Google;
 console.log(`Your current company is: ${presentCompany}.`);
+// working on git push to branch and pull request to main branch.
+let isEmployed: boolean = true;
+console.log(`Are you currently employed? ${isEmployed ? "Yes" : "No"}.`);
