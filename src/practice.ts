@@ -35,3 +35,5 @@ let favoriteNumbers: number[] = [7, 14, 21];
 console.log(`Your favorite numbers are: ${favoriteNumbers.join(", ")}.`);    
 let personInfo: [string, number, boolean] = ['veera', 26, true];
 console.log(`Name: ${personInfo[0]}, Age: ${personInfo[1]}, Employed: ${personInfo[2] ? "Yes" : "No"}.`);   
+let currentCompany: CompanyType = companies.Apple;console.log(`Your current company is: ${currentCompany}.`);
+console.log(`Your current company is: ${currentCompany}.`);
